@@ -13,6 +13,10 @@ Variation of closing price relative to the first closing price for few stocks co
 
 ![image](https://github.com/vedantkan/Predicting-S-P-500-Stock-Price/assets/68374993/c8d02be1-df01-4c39-b210-1c578a556ead)
 
+Relative closing price for consecutive days are highly correlated. As we move farther the correlation starts decreasing.
+
+![image](https://github.com/vedantkan/Predicting-S-P-500-Stock-Price/assets/68374993/2b502868-4ecf-42f4-b129-dccdd58758fd)
+
 Using time series decomposition extracted trend component of the data. Performed PCA on the trend components. Additionally applied hierarchical clustering on first 10 PCA and after cutting the tree at appropriate point.
 
 ![image](https://github.com/vedantkan/Predicting-S-P-500-Stock-Price/assets/68374993/fcb2126a-92e2-483a-86cf-b871983d32b0)
